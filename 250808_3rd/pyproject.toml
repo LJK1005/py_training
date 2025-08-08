@@ -1,0 +1,18 @@
+[project]
+name = "250808_3rd"
+version = "0.1.0"
+description = "CSV 파일을 웹에서 보여주는 Django 예제"
+authors = [
+    { name="reidlo", email="kangjunmo@ms-global.com" }
+]
+requires-python = ">=3.8"
+
+dependencies = [
+    "django>=4.2",
+    "pandas"
+]
+
+[tool.setuptools]
+
+[tool.setuptools.packages.find]
+include = ["app*"]
